@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5,
     left: 0;
     top: 0;
     margin-top: -130px;
-    background: black !important; }
+    background: #273135 !important; }
     @media screen and (max-width: 768px) {
       .ftco-navbar-light.scrolled .navbar-nav {
         background: none;
@@ -131,7 +131,8 @@ h1, h2, h3, h4, h5,
 
 .bg-image, .ftco-cover {
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat; 
+  background: #59c9a5;}
 
 .ftco-cover {
   background-position: center center; }
