@@ -236,13 +236,14 @@ h1, h2, h3, h4, h5,
       color: #000; }
 
 .form-control {
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  height: 55px;
-  background: none !important;
-  color: #000 !important;
+  border: none;
+  height: 56px;
+  width: 200px;
+  background: white !important;
+  color: white !important;
   font-size: 18px; }
   .form-control:focus, .form-control:active {
-    border: 1px solid #000; }
+    border: 1px solid white; }
 
 textarea {
   height: inherit !important; }
