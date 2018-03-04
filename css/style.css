@@ -176,30 +176,6 @@ h1, h2, h3, h4, h5,
   .ftco-cover .ftco-vh-100 {
     min-height: 700px !important; }
 
-.ftco-slant {
-  position: relative;
-  overflow: hidden; }
-  .ftco-slant:after {
-    width: 120%;
-    height: 200px;
-    left: -10%;
-    background: #f2f2f2;
-    -webkit-transform: rotate(-5deg);
-    -ms-transform: rotate(-5deg);
-    transform: rotate(-5deg);
-    content: "";
-    position: absolute;
-    bottom: -100px; }
-    @media screen and (max-width: 960px) {
-      .ftco-slant:after {
-        bottom: -150px; } }
-    @media screen and (max-width: 768px) {
-      .ftco-slant:after {
-        bottom: -170px; } }
-  .ftco-slant.ftco-slant-white:after {
-    background: #fff; }
-  .ftco-slant.ftco-slant-dark:after {
-    background: #263135; }
 
 .ftco-uppercase {
   letter-spacing: .1em;
@@ -301,9 +277,9 @@ textarea {
   .ftco-footer .ftco-footer-widget h2 {
     font-weight: normal; }
   .ftco-footer p {
-    color: rgba(255, 255, 255, 0.3); }
+    color: black; }
   .ftco-footer a {
-    color: rgba(255, 255, 255, 0.3); }
+    color: black; }
     .ftco-footer a:hover {
       color: #4586FF; }
   .ftco-footer .ftco-heading {
